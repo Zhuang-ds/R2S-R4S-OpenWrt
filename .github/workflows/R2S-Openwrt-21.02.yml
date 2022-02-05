@@ -5,7 +5,7 @@ on:
      branches:
        - 21.02
      paths:
-       - '.github/workflows/R2S-Openwrt-21.02.yml'
+      # - '.github/workflows/R2S-Openwrt-21.02.yml'
   schedule:
     - cron: '00 04 * * 1'
   watch:
